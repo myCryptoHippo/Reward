@@ -82,8 +82,8 @@ a {
 }
 
 #aboutUsFooterIcons {
-  display: inline-block;
-  width: 40px; 
+  display: inline-block;;
+  width: calc(3vw + 0px); 
 
 }
 #selectingBlock{
