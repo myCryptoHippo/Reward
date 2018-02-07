@@ -1,0 +1,64 @@
+body{
+    font-family:'Open Sans';
+}
+#mainPanel{
+    position: absolute;
+    margin-top: 61px;
+    margin-bottom: 10px;
+    margin-left: calc(10vw + 135px);
+    padding: 40px;
+}
+#reward{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: 2px solid #8D369B;
+    height: 170px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    #reward{
+        width: calc(47vw - 230px);
+    }
+    #rPic{
+        margin-left: calc(7vw - 70px);
+        margin-right: calc(7vw - 70px);
+    }
+}
+@media screen and (max-width: 1000px) and (min-width:500px) {
+    #reward{
+        width: calc(50vw - 20px);
+        margin-left: calc(23vw - 135px);
+    }
+    #rPic{
+        margin-left: calc(9vw - 50px);
+        margin-right: calc(9vw - 50px);
+    }
+}
+
+#title{
+    font-size: 18px;
+    font-weight: bold;
+}
+#des{
+    margin-top: 2px;
+    font-size: 12px;
+    color: gray;
+}
+#link{
+    cursor: pointer;
+    color: #46b7e0;
+    text-decoration: underline;
+}
+#pics{
+    margin-top: 15px;
+    margin-left: -9px;
+}
+#rPic{
+    width: 80px;
+}
